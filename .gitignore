@@ -1,0 +1,17 @@
+*.sh
+*.zip
+*.vscode
+*.log
+.ipynb_*
+
+output
+res
+result
+data
+dataset
+datasets
+bash
+core.*
+
+__pycache__/
+*.py[cod]
