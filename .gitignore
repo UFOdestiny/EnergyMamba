@@ -1,14 +1,36 @@
-*.sh
-*.zip
-*.vscode
-*.log
-.ipynb_*
+# Data & results
+datasets/
+result/
+output/
+checkpoints/
 
-output
-res
-result
-bash
-core.*
-
+# Python
 __pycache__/
 *.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+.ruff_cache/
+
+# Environments
+venv/
+env/
+.venv/
+
+# Model weights & logs
+*.pt
+*.pth
+*.log
+*.err
+slurm-*.out
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Agent tooling
+.claude*
+CLAUDE*
